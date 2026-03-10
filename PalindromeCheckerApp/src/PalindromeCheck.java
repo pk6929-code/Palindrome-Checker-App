@@ -11,7 +11,7 @@ class QueueStackPalindrome {
         Queue<Character> queue = new LinkedList<>();
         Stack<Character> stack = new Stack<>();
 
-        // Insert characters
+        // Insert charactersgit checkout -b
         for(char c : str.toCharArray()){
             queue.add(c);
             stack.push(c);
